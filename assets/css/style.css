@@ -95,6 +95,44 @@ header p {
     color: var(--accent-color);
     transform: translateY(-3px);
 }
+.credentials-strip {
+    background-color: var(--secondary-color);
+    padding: 18px 0;
+}
+
+.credentials-strip .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.credentials-strip ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    list-style: none;
+}
+
+.credentials-strip li {
+    color: var(--white-color);
+    font-size: 0.95rem;
+    letter-spacing: 0.3px;
+}
+
+.credentials-strip strong {
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .credentials-strip ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
 
 /* --- 4. Navigation --- */
 nav {
