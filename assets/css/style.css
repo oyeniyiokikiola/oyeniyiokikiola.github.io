@@ -324,12 +324,12 @@ nav ul li a:hover::after {
 
 .skills-table {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
     margin-top: 50px;
     background-color: var(--card-bg-color);
-    padding: 40px;
-    border-radius: 8px;
+    padding: 45px;
+    border-radius: 10px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
 }
 
@@ -337,10 +337,12 @@ nav ul li a:hover::after {
     padding: 0 20px;
 }
 
-.skill-column:not(:last-child) {
-    border-right: 1px solid #e9ecef;
+.skill-column {
+    border: 1px solid #ececec;
+    border-radius: 8px;
+    padding: 25px;
+    background: #fff;
 }
-
 .skill-header {
     display: flex;
     align-items: center;
@@ -459,9 +461,6 @@ footer p {
 @media (max-width: 992px) {
     .skills-table {
         grid-template-columns: 1fr 1fr;
-    }
-    .skill-column:nth-child(2) {
-        border-right: none;
     }
 }
 
