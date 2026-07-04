@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oyeniyiokikiola.github.io/sitemap.xml
